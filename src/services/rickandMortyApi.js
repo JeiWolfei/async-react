@@ -5,7 +5,7 @@ const requestApi = (resource, page) => {
       totalPages: json.info.pages,
       results: json.results
     }));
-};;
+};
 
 export const getCharacters = page => {
   return requestApi('character', page);
